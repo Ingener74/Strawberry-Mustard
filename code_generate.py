@@ -36,15 +36,11 @@ if __name__ == '__main__':
 	elems = []
 
 	for child in root:
-		print child.tag, child.attrib
-
 		for ch in child:
 			if is_edge(ch.attrib):
 				elems += [Edge(ch.attrib['id'], ch.attrib['source'], ch.attrib['target'])]
 			elif is_box(ch.attrib):
 				elems += [Box(ch.attrib['id'], ch.attrib['value'])]
-
-			# print ch.attrib['id'] if 'id' in ch.attrib else '', 'Edge' if is_edge(ch.attrib) else 'Box' if is_box(ch.attrib) else 'Unknown'
 
 	for elem in elems:
 		print elem
