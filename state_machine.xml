@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel arrows="1" background="#ffffff" connect="1" dx="1426" dy="742" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageHeight="1169" pageScale="1" pageWidth="827" shadow="0" tooltips="1">
+	<root>
+		<mxCell id="0"/>
+		<mxCell id="1" parent="0"/>
+		<mxCell edge="1" id="5" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;" target="3">
+			<mxGeometry as="geometry" relative="1"/>
+		</mxCell>
+		<mxCell edge="1" id="16" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.25;exitY=1;entryX=0.25;entryY=0;jettySize=auto;orthogonalLoop=1;" target="4">
+			<mxGeometry as="geometry" relative="1"/>
+		</mxCell>
+		<mxCell connectable="0" id="17" parent="16" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" value="On|Button&lt;br&gt;" vertex="1">
+			<mxGeometry as="geometry" relative="1" x="-0.225" y="2">
+				<mxPoint as="offset" x="-32" y="8"/>
+			</mxGeometry>
+		</mxCell>
+		<mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="State 1" vertex="1">
+			<mxGeometry as="geometry" height="60" width="120" x="200" y="410"/>
+		</mxCell>
+		<mxCell edge="1" id="6" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=1;entryY=0.5;jettySize=auto;orthogonalLoop=1;" target="4">
+			<mxGeometry as="geometry" relative="1"/>
+		</mxCell>
+		<mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="State 2" vertex="1">
+			<mxGeometry as="geometry" height="60" width="120" x="380" y="530"/>
+		</mxCell>
+		<mxCell edge="1" id="7" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;jettySize=auto;orthogonalLoop=1;" target="2">
+			<mxGeometry as="geometry" relative="1">
+				<Array as="points">
+					<mxPoint x="260" y="550"/>
+					<mxPoint x="260" y="550"/>
+				</Array>
+			</mxGeometry>
+		</mxCell>
+		<mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="State 3" vertex="1">
+			<mxGeometry as="geometry" height="60" width="120" x="200" y="630"/>
+		</mxCell>
+		<mxCell edge="1" id="15" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;" target="2">
+			<mxGeometry as="geometry" relative="1"/>
+		</mxCell>
+		<mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="State Machine 1&lt;br&gt;" vertex="1">
+			<mxGeometry as="geometry" height="70" width="260" x="130" y="230"/>
+		</mxCell>
+	</root>
+</mxGraphModel>
